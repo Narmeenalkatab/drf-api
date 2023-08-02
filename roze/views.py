@@ -14,3 +14,4 @@ class RozeListView(ListCreateAPIView):
 class RozeDetailView(RetrieveUpdateDestroyAPIView):
     queryset = Roze.objects.all()
     serializer_class = RozeSerializer
+
